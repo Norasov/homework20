@@ -19,6 +19,7 @@
     --text-5xl--line-height: 1;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
     --radius-md: 0.375rem;
     --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
@@ -306,8 +307,14 @@
   .m-\[0\] {
     margin: 0;
   }
+  .m-\[0_\] {
+    margin: 0 ;
+  }
   .m-\[0_auto\] {
     margin: 0 auto;
+  }
+  .m-\[0_uato\] {
+    margin: 0 uato;
   }
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
@@ -326,6 +333,9 @@
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
+  }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
   }
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
@@ -353,6 +363,9 @@
   }
   .mb-15 {
     margin-bottom: calc(var(--spacing) * 15);
+  }
+  .mb-25 {
+    margin-bottom: calc(var(--spacing) * 25);
   }
   .ml-\[7\%\] {
     margin-left: 7%;
@@ -616,6 +629,12 @@
   .pr-8 {
     padding-right: calc(var(--spacing) * 8);
   }
+  .pr-11 {
+    padding-right: calc(var(--spacing) * 11);
+  }
+  .pr-14 {
+    padding-right: calc(var(--spacing) * 14);
+  }
   .pr-\[7\%\] {
     padding-right: 7%;
   }
@@ -673,6 +692,12 @@
   .pl-8 {
     padding-left: calc(var(--spacing) * 8);
   }
+  .pl-11 {
+    padding-left: calc(var(--spacing) * 11);
+  }
+  .pl-14 {
+    padding-left: calc(var(--spacing) * 14);
+  }
   .pl-\[7\%\] {
     padding-left: 7%;
   }
@@ -701,6 +726,10 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .font-extrabold {
+    --tw-font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-extrabold);
   }
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
