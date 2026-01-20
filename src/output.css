@@ -352,11 +352,17 @@
   .mr-\[10\%\] {
     margin-right: 10%;
   }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
   }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
@@ -397,6 +403,9 @@
   .h-\[12px\] {
     height: 12px;
   }
+  .h-\[20px\] {
+    height: 20px;
+  }
   .h-\[50vh\] {
     height: 50vh;
   }
@@ -414,6 +423,9 @@
   }
   .h-screen {
     height: 100vh;
+  }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
   }
   .w-\[30\%\] {
     width: 30%;
@@ -469,6 +481,9 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .self-end {
+    align-self: flex-end;
+  }
   .rounded {
     border-radius: 0.25rem;
   }
@@ -494,6 +509,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-1 {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
@@ -510,6 +529,9 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 3px;
   }
+  .border-\[\#4B4B4B\] {
+    border-color: #4B4B4B;
+  }
   .border-\[\#35AFBF33\] {
     border-color: #35AFBF33;
   }
@@ -519,8 +541,14 @@
   .border-\[\#D1F4F9\] {
     border-color: #D1F4F9;
   }
+  .border-\[\#FFFFFF4D\] {
+    border-color: #FFFFFF4D;
+  }
   .border-b-\[\#35AFBF\] {
     border-bottom-color: #35AFBF;
+  }
+  .bg-\[\#2C353E\] {
+    background-color: #2C353E;
   }
   .bg-\[\#35AFBF\] {
     background-color: #35AFBF;
@@ -610,6 +638,12 @@
   }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
+  }
+  .pt-12 {
+    padding-top: calc(var(--spacing) * 12);
+  }
+  .pt-20 {
+    padding-top: calc(var(--spacing) * 20);
   }
   .pt-25 {
     padding-top: calc(var(--spacing) * 25);
@@ -749,6 +783,9 @@
   }
   .text-\[\#969999\] {
     color: #969999;
+  }
+  .text-\[\#FFFFFF4D\] {
+    color: #FFFFFF4D;
   }
   .text-white {
     color: var(--color-white);
